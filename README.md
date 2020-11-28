@@ -1,2 +1,2 @@
 # DS-Algo
-Common data structures and algorithm
+Some common data structures and algorithms that are widely used in programming!
