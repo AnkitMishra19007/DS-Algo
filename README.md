@@ -1,6 +1,6 @@
 # DS-Algo
 Some common data structures and algorithms that are widely used in programming!
-## Using Git
+## Using Git and sync with main repository
 * Fork your own copy of this repository
 * Clone your repository to your local machine \
   `git clone https://github.com/YOUR_USERNAME/DS-Algo.git`
