@@ -14,6 +14,6 @@ Some common data structures and algorithms that are widely used in programming!
   Commits to DS-Algo will be stored in the local branch upstream/DS-Algo. \
   `$ git fetch upstream` \
   Check out your fork's local default branch - in this case, we use main. \
-  `$ git checkout main`
+  `$ git checkout main` \
   Merge the changes from the upstream default branch \
   `$ git merge upstream/main`
