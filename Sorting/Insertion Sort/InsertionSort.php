@@ -1,6 +1,7 @@
 <?php
     //below is a function that iteratively performs binary search
     function insertionSort($arr,$n){
+        //this loop will keep of pointer that points the sorted part of code
         for($i=0;$i<$n;$i++){
             $j=$i;
             while($j>0){
