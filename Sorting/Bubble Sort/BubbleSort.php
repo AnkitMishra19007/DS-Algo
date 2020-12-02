@@ -26,5 +26,6 @@
     //explode breaks string into array
     $arr = explode(' ', readline()); 
     $arr= bubbleSort($arr,$n);
+    //print_r is used to display directlty index wise
     print_r($arr);
 ?> 
