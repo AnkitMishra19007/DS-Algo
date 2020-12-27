@@ -1,7 +1,7 @@
 def QuickSort(arr, i, n):       # if arr = [9, 8, 7, 6, 5, 4, 3, 2] then (i = 0, n = 8)
     if n <= 1:
         return arr
-    (p, q, r) = (i-1, i, i+n)   # p = intial_index-1, q = initial_index, r = last_index
+    (p, q, r) = (i-1, i, i+n-1)   # p = intial_index-1, q = initial_index, r = last_index
     pivot_element = arr[i]      # first element is taken as pivot element
     
     '''
@@ -17,7 +17,7 @@ def QuickSort(arr, i, n):       # if arr = [9, 8, 7, 6, 5, 4, 3, 2] then (i = 0,
     while(q < r):
         if arr[q] > pivot_element:
             arr[q], arr[r] = arr[r], arr[q]
-            q, r = q+1, r-1
+            r = r-1
         elif arr[q] < pivot_element:
             p+=1                # p will contain the last index of element which is less than pivot_element
             arr[p], arr[q] = arr[q], arr[p]
